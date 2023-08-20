@@ -1,0 +1,19 @@
+[
+    {
+      "image": "images/project-1.webp",
+      "title": "Online Reservation System",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi accusamus, eaque, odio illo ut amet sapiente, fuga dolores deserunt obcaecati labore sit beatae recusandae dicta facere magnam non. Adipisci, voluptates",
+      "techstack": ["Java", "JavaFX", "MySQL"],
+      "github": "https://github.com/user/project1"
+      
+    },
+    {
+      "image": "images/project-2.webp",
+      "title": "Space Tourism Website",
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi accusamus, eaque, odio illo ut amet sapiente, fuga dolores deserunt obcaecati labore sit beatae recusandae dicta facere magnam non. Adipisci, voluptates",
+      "techstack": ["React", "TailwindCSS"],
+      "github": "https://github.com/user/project2",
+      "demo": "https://demo.project2.com"
+    }
+  ]
+  
