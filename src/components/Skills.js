@@ -29,7 +29,7 @@ const Skills = () => {
 
   return (
     <div className="text-center w-full">
-      <h4 className="text-3xl mb-8">Skills </h4>
+      <h4 className="text-3xl mb-8 font-palanquin font-bold"> My <span className="text-pink">Skills</span> </h4>
       <div className="flex flex-wrap gap-8 items-center justify-center">
         {iconData.map((item, index) => (
           <Card key={index}>

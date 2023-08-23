@@ -7,12 +7,19 @@ import Tools from '../components/Tools'
 
 const About = () => {
   return (
-    <section id='about' className='flex flex-col w-full min-h-screen justify-center items-center gap-8 text-primary-white bg-active-black px-[10vw]'>
-      <div className='flex items-center justify-center flex-col md:flex-row '>
+    <section id='about' className='flex flex-col w-full min-h-screen justify-center items-center gap-8 text-primary-white bg-active-black py-[10vh] px-[10vw]'>
+      <div className='flex items-center justify-center flex-col lg:gap-20 lg:flex-row '>
         <img src={aboutImage} alt="person"  height={300} width={300}/>
-        <div className='flex flex-col gap-4 md:w-1/2 md:ml-20 lg:md-40'>
-          <h3 className='text-4xl text-pink-700'>About me,</h3>
-          <p className='text-2xl'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi accusamus, eaque, odio illo ut amet sapiente, fuga dolores deserunt obcaecati labore sit beatae recusandae dicta facere magnam non. Adipisci, voluptates?</p>
+        <div className='flex flex-col gap-4 lg:w-1/2  lg:md-40 flex-1'>
+          <h3 className='text-4xl font-montserrat font-bold'><span className='text-pink'>About </span> me,</h3>
+          <p className='text-2xl font-semi-bold font-palanquin'>
+            Hi, I'm Subashkumar. I recently graduated with a Bachelor's degree in Information Technology
+             from University College Of Engineering, BIT Campus, Tiruchirappalli. 
+          </p>
+          <p className='text-2xl font-semi-bold font-palanquin'>
+            I'm a passionate and aspiring software developer with a curiosity for creating innovative
+            solutions that make a difference. As someone who's constantly fascinated by the world of technology,
+          </p>
           <Button>Resume</Button>
         </div>
         

@@ -3,6 +3,8 @@ import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { SiGmail } from "react-icons/si";
 import { SlPhone } from "react-icons/sl";
 import Socials from './Socials';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const ContactDetails = () => {
 
@@ -12,9 +14,13 @@ const ContactDetails = () => {
         {icon: FaLinkedin, link: "https://www.linkedin.com/in/subashkumar-s/"},
     ]
   return (
-    <div className='flex flex-col gap-4'>
-        <div>
-            <h4 className='text-3xl  font-bold my-6'>Contact me</h4>
+    <div className='flex flex-col gap-4 w-full md:w-1/2 max-md:items-center items-start justify-center '>
+        <div> 
+            <h4 className='text-2xl font-palanquin font-semibold max-md:text-center'>Contact Info</h4>
+            <div className='flex gap-4 items-center  my-4'>
+                <FontAwesomeIcon icon={faLocationDot} />
+                <p>Ariyalur, Tamil Nadu,  India.</p>
+            </div>
             <div className='flex gap-4 items-center  my-4'>
                 <SiGmail />
                 <p>subashs2232@gmail.com</p>
@@ -25,8 +31,8 @@ const ContactDetails = () => {
             </div>
             
         </div>
-        <div className='mb-4' >
-            <h4 className='text-xl font-semibold mb-4'>Find me on</h4>
+        <div className=' ' >
+            <h4 className='text-2xl font-palanquin font-semibold mb-4'>Find me on</h4>
             <div className='flex gap-4 '>
                 {
                     socialMedia.map((item, index) => (

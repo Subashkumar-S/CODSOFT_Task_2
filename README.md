@@ -29,3 +29,21 @@ Check out the live version of my portfolio website at [https://www.your-portfoli
 
    ```bash
    git clone https://github.com/your-username/portfolio-website.git
+
+   ```
+
+2. Navigate to the project directory
+    ``` bash
+    cd your-project
+    ```
+    
+
+3. Install dependencies
+   ```bash
+   npm install
+   ```
+
+4. Start the application
+    ```bash
+    npm start
+    ```

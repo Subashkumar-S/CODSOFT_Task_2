@@ -21,7 +21,7 @@ const Tools = () => {
 
   return (
     <div className="text-center w-full">
-      <h4 className="text-3xl mb-8">Tools </h4>
+      <h4 className="text-3xl mb-8"><span className="text-pink">Tools </span>I use, </h4>
       <div className="flex flex-wrap gap-8 items-center justify-center">
         {iconData.map((item, index) => (
           <Card key={index}>
