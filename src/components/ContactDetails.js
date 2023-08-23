@@ -6,11 +6,12 @@ import Socials from './Socials';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+
 const ContactDetails = () => {
 
     const socialMedia = [
-        {icon: FaFacebook, link: "https://www.linkedin.com/in/subashkumar-s/"},
-        {icon: FaInstagram, link: "https://www.linkedin.com/in/subashkumar-s/"},
+        {icon: FaFacebook, link: "https://www.facebook.com/profile.php?id=100016289860060"},
+        {icon: FaInstagram, link: "https://www.instagram.com/__subashkumar__/"},
         {icon: FaLinkedin, link: "https://www.linkedin.com/in/subashkumar-s/"},
     ]
   return (

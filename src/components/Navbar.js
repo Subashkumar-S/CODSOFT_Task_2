@@ -31,7 +31,7 @@ const App = () => {
   ];
 
   return (
-    <header className="fixed top-0 w-full text-primary-white">
+    <header className="fixed top-0 w-full text-primary-white max-md:text-active-white">
       <nav className={` absolute w-full flex items-center justify-between flex-wrap px-6 md:px-16 py-4 ${isScrolled || isOpen ? 'backdrop-blur-xl bg-primary-white bg-opacity-20 transition-all duration-300 ease-in-out' : 'bg-transparent'}`}>
         <a href="/" className="font-rubik text-4xl text-primary-white opacity-60 hover:opacity-100">
           <h2>SK</h2>
@@ -58,6 +58,7 @@ const App = () => {
               <a
                 key={index}
                 href={item.link}
+                onClick={() => setIsOpen(false)}
                 className={`flex  items-center justify-center gap-2 hover:text-${color}`}
               >
                 <FontAwesomeIcon icon={item.icon}/>

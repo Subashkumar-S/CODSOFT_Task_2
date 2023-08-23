@@ -1,5 +1,5 @@
 import React from 'react'
-import projects from "../components/data.json"
+import data from "../components/data.json"
 import Button from '../components/Button';
 
 
@@ -7,7 +7,7 @@ const Projects = () => {
     return (
       <section id='projects' className='w-full md:px-[10vw] py-[10vh] bg-primary-black text-primary-white  '>
         <h3 className='text-center text-4xl font-montserrat font-bold'>My Recent <span className='text-pink'>Works</span></h3>
-        {projects.map((project, index) => (
+        {data.projects.map((project, index) => (
           <div key={index} className='flex flex-col lg:flex-row items-center justify-center py-10 max-sm:px-4 max-md:px-10 text-active-black'>
             <img src={project.image} alt={project.title}  className=' h-[240px]   md:w-[600px] md:h-[500px]'/>
             <div className='flex flex-col gap-4 bg-active-black  text-primary-white -my-2 mx-2 lg:-ml-10 px-8 py-4 rounded-md'>
@@ -20,10 +20,10 @@ const Projects = () => {
                 ))}
                 </ul>
                 <div className='flex flex-wrap gap-4'>
-                <Button href={project.github} target="_blank" rel="noopener noreferrer">GitHub</Button>
+                <Button href={project.github} target="_blank" >GitHub</Button>
                 {
                     project.demo &&
-                    <Button href={project.demo} target="_blank" rel="noopener noreferrer">Demo</Button>
+                    <Button href={project.demo} target="_blank" >Demo</Button>
                 }
                 </div>
             </div>

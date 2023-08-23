@@ -30,9 +30,9 @@ const Home = () => {
   }, []);
 
   const socialMedia = [
-    { icon: FaGithub, link: "https://www.linkedin.com/in/subashkumar-s/" },
-    { icon: SiLeetcode, link: "https://www.linkedin.com/in/subashkumar-s/" },
-    { icon: SiCodecademy, link: "https://www.linkedin.com/in/subashkumar-s/" },
+    { icon: FaGithub, link: "https://github.com/Subashkumar-S" },
+    { icon: SiLeetcode, link: "https://leetcode.com/Subash2232/" },
+    { icon: SiCodecademy, link: "https://www.codecademy.com/profiles/Subashkumar_2232" },
   ];
   return (
     <section
