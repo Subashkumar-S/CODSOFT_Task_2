@@ -17,7 +17,7 @@ const ContactForm = () => {
     setIsSubmitting(true);
 
     try {
-      await axios.post('http://localhost:5000/send-message', { name, email, message });
+      await axios.post('/send-message', { name, email, message });
       setSubmissionResult("success");
       setName('');
       setEmail('');
