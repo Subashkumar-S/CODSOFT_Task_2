@@ -6,6 +6,7 @@ import Tools from '../components/Tools'
 
 
 const About = () => {
+  const resumeDownloadLink = '/assets/Subashkumar_S_Resume.pdf';
   return (
     <section id='about' className='flex flex-col w-full min-h-screen justify-center items-center gap-8 text-primary-white bg-active-black py-[10vh] px-[10vw]'>
       <div className='flex items-center justify-center flex-col lg:gap-20 lg:flex-row '>
@@ -20,7 +21,7 @@ const About = () => {
             I'm a passionate and aspiring software developer with a curiosity for creating innovative
             solutions that make a difference. As someone who's constantly fascinated by the world of technology,
           </p>
-          <Button>Resume</Button>
+          <Button downloadLink={resumeDownloadLink} >Resume</Button>
         </div>
         
       </div>

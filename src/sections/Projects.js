@@ -20,10 +20,10 @@ const Projects = () => {
                 ))}
                 </ul>
                 <div className='flex flex-wrap gap-4'>
-                <Button href={project.github} target="_blank" >GitHub</Button>
+                <Button openInNewTab={true} href={project.github} target="_blank" >GitHub</Button>
                 {
                     project.demo &&
-                    <Button href={project.demo} target="_blank" >Demo</Button>
+                    <Button openInNewTab={true} href={project.demo} target="_blank" >Demo</Button>
                 }
                 </div>
             </div>

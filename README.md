@@ -8,7 +8,7 @@ This portfolio website showcases my projects, skills, and experiences. It is bui
 
 ## Live Demo
 
-Check out the live version of my portfolio website at [https://www.your-portfolio-website.com](https://www.your-portfolio-website.com)
+Check out the live version of my portfolio website at [here](https://subashkumar-s.web.app/)
 
 ## Features
 
@@ -23,27 +23,3 @@ Check out the live version of my portfolio website at [https://www.your-portfoli
 - HTML5
 - CSS3
 
-## Installation
-
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/portfolio-website.git
-
-   ```
-
-2. Navigate to the project directory
-    ``` bash
-    cd your-project
-    ```
-    
-
-3. Install dependencies
-   ```bash
-   npm install
-   ```
-
-4. Start the application
-    ```bash
-    npm start
-    ```
